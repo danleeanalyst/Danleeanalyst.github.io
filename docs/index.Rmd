@@ -199,6 +199,7 @@ data_2022_12_months_2 %>%
     theme_bw() +
     labs(title ="Number of Rides per Season", subtitle = "From the Cyclistic Bike Trips data set", x = "Seasons", y = "Number of Rides")
 ```
+
 **This data shows the top 5 stations for casual riders**
 ```{r}
   data_2022_12_months_2 %>%
